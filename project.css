@@ -1,0 +1,111 @@
+header nav {
+    display: flex;
+    background-color: black;
+    min-width: 300px;
+}
+.l1{
+    display: flex;
+
+}
+.mar{
+    margin-left: 750px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    transition: background-color 0.3s ease;
+    padding: 10px 10px 10px 10px;
+    width: 75px;
+    transition: width 0.3s ease;
+    transition: padding 0.3s ease;
+
+}
+nav a:hover{
+    background-color: orange;
+    width: 90px;
+    padding: 10px 15px 10px 15px;
+
+}
+.image1:hover{
+    border: orange 2px solid;
+    width: 300px;
+    height: 250px;
+}
+.image1{
+    transition: border 0.3s ease;
+    transition: width 0.3s ease;
+    transition: height 0.3s ease;
+    width: 250px;
+    height: 200px;
+}
+.sec1{
+    display: flex;
+}
+.image2{
+    transition: border 0.3s ease;
+    transition: width 0.3s ease;
+    transition: height 0.3s ease;
+    width: 250px;
+    height: 200px;
+}
+.image2:hover{
+    border: orange 2px solid;
+    width: 300px;
+    height: 250px;
+}
+.image3{
+    transition: border 0.3s ease;
+    transition: width 0.3s ease;
+    transition: height 0.3s ease;
+    width: 250px;
+    height: 200px;
+}
+.image3:hover{
+    border: orange 2px solid;
+    width: 300px;
+    height: 250px;
+}
+.image4{
+    transition: border 0.3s ease;
+    transition: width 0.3s ease;
+    transition: height 0.3s ease;
+    width: 250px;
+    height: 200px;
+}
+.image4:hover{
+    border: orange 2px solid;
+    width: 300px;
+    height: 250px;
+}
+.image5{
+    transition: border 0.3s ease;
+    transition: width 0.3s ease;
+    transition: height 0.3s ease;
+    width: 250px;
+    height: 200px;
+}
+.image5:hover{
+    border: orange 2px solid;
+    width: 300px;
+    height: 250px;
+}
+header{
+    position: sticky;
+    top: 0;
+}
+.d1{
+    background-color: greenyellow;
+    border-radius: 25px;
+    width: 75px;
+    height: 30px;
+    transition: border 0.2s ease;
+    transition: width 0.2s ease;
+
+}
+.d1:hover{
+    border: green 3px solid;
+    width: 90px;
+}
+h1{
+    text-align: center;
+}
