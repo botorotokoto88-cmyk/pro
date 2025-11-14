@@ -2,28 +2,30 @@ header nav {
     display: flex;
     background-color: black;
     min-width: 300px;
-}
-.l1{
     display: flex;
-
+    width: 100%;
+    justify-content: space-between;
 }
-.mar{
-    margin-left: 750px;
+ul{
+    display: flex;
+}
+li{
+    list-style: none;
 }
 nav a{
     text-decoration: none;
-    color: white;
-    transition: background-color 0.3s ease;
+    color: orange;
     padding: 10px 10px 10px 10px;
     width: 75px;
-    transition: width 0.3s ease;
-    transition: padding 0.3s ease;
+    transition: all 0.3s ease;
 
 }
-nav a:hover{
+nav a:hover:not(.a1){
     background-color: orange;
+    color: white;
     width: 90px;
     padding: 10px 15px 10px 15px;
+    margin: 0px 10px;
 
 }
 .image1:hover{
@@ -40,6 +42,7 @@ nav a:hover{
 }
 .sec1{
     display: flex;
+    justify-content: space-between;
 }
 .image2{
     transition: border 0.3s ease;
@@ -108,4 +111,10 @@ header{
 }
 h1{
     text-align: center;
+}
+.a1:hover{
+    background-color: orange;
+    color: white;
+    width: 90px;
+    padding: 10px 15px 10px 15px;
 }
